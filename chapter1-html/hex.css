@@ -1,0 +1,19 @@
+h1{color:blue;
+    text-align: center;
+}
+body{
+    background-color:#817E7D;
+    text-align: center;
+
+    
+}
+/* form{text-align: center;} */
+
+table{
+    background-color: blue;
+  
+    text-align: center;
+    table-layout: auto;
+    margin: auto;
+}
+

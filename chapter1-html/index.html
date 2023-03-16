@@ -4,14 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="hex.css">
+    <title>Informations Student </title>
+    
+ 
 
-    <p>italic</p>
-<br>
-<p>git test versions</p>
+
 
 </head>
 <body>
+    <h1>Student's Informations</h1>
+<form action="">
+
+   <table>
+        <tr>
+            <td><label for="Surname">Surname</label></td>
+            <td><input type="text" id="surname"></td>
+
+        </tr>
+
+        <tr>
+            <td><label for="firstname">Name</label></td>
+            <td><input type="text" id="firstname"></td>
+            
+                    </tr>
+
+                    <tr>
+                        <td><label for="Gender">Gender</label>
+                        </td>
+                        <td><input type="radio" name="Gender" id="male" checked><label for="male">Male</label></td>
+                        <td><input type="radio" name="Gender" id="female"><label for="female">Female</label></td>
+
+
+                    </tr>
+                    <br>
+                    <tr>
+                        <td>
+                            <label for="LevelOfStudies">Education Level</label> </td>
+                            <td>
+                            <select id="LevelOfStudies">
+                                <option value="Master">Master</option>
+                                <option value="Bachelor">Bachelor</option>
+                                <option value="Phd">Phd</option>
+                                </select>
+                        </td>
+                    </tr>
+                    <tr>
+                    <td><label for="comments">Comments</label></td>
+                    <td> <textarea  id="comments" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit">Αποστολή Στοιχείων</button></td>
+                </tr>
+    </table>
+</form>
+
     
+
 </body>
 </html>
