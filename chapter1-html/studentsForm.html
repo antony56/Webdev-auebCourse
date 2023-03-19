@@ -7,8 +7,65 @@
     <title>Students Form</title>
 </head>
 <body>
+
+
+
+
+    <h1>Student Informations</h1>
+    <form>
+        <table>
+        <tr>
+            <td><label for="Surname" >Surname</label></td>
+            <td><input type="text" id="Surname"></td>
+        </tr>
+
+        <tr>
+            <td><label for="Firstname">Firstname</label></td>
+            <td><input type="text" id="Firstname"></td>
+        </tr>
+
+        <tr>
+            <td><label for="gender">Gender</label></td>
+            <td>
+
+                <input type="radio" name="gender" id="male" checked><label for="male">Male</label>
+<input type="radio" name="gender" id="female"><label for="female">Female</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="sudies">Studies</label></td>
+            <td><select name="studies" id="studies">
+                <option value="one">One</option>
+                <option value="two">Two</option>
+                <option value="three">Three</option>
+                <option value="four">Four</option>
+                <option value="five">Five</option>
+                
+                
+                
+                </select></td>
+        </tr>
+
+        <tr>
+            <td><label for="comments">Comments</label></td>
+            <td><textarea name="comments" id="comments" cols="30" rows="10"></textarea></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><button type="submit">Send Info</button></td>
+        </tr>
+
+        
+
+
+
+
+
+
     
-<form>
+<!-- <form>
 <label for="Surname" >Surname</label>
 <input type="text" id="Surname">
 
@@ -41,14 +98,18 @@
 
 <button type="submit">Send Info</button>
 
-<br>
-<button type="button" onclick="console.log('hello random guy')" >Check Submission</button>
-<br>
+<br> -->
 
+
+
+</table>
 </form>
+<hr>
+<button type="button" onclick="console.log('hello random guy')" >Check Submission</button>
 
 
-
+<hr>
+<hr>
 
 </body>
 </html>
