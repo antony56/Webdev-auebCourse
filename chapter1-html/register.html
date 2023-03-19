@@ -4,66 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Students Form Validation</title>
+    <title>Registration Form</title>
 </head>
 <body>
 
 
 
 
-    <h1>Student Informations</h1>
-    <form>
-        <table>
-        <tr>
-            <td><label for="Surname" >Surname</label></td>
-            <td><input type="text" id="Surname"></td>
-        </tr>
+    <h1>Registraion</h1>
+<form action="">
+<table>
+    <tr>
+        <td> <label for="surname">Surname</label> </td>
+        <td><input type="text"id="surname" required pattern="[A-Z]+"minlength="4"></td> 
+    </tr>
 
-        <tr>
-            <td><label for="Firstname">Firstname</label></td>
-            <td><input type="text" id="Firstname"></td>
-        </tr>
+    <tr>
+        <td> <label for="firstname">Firstname</label> </td>
+        <td><input type="text"id="firstname" required></td> 
+    </tr>
 
-        <tr>
-            <td><label for="gender">Gender</label></td>
-            <td>
+    <tr>
+        <td><label for="birthdate">Day of Birth</label></td>
+        <td><input type="date" name="birthdate" id="birthdate" maxlength="10"
+            max="2004-01-01"></td> 
+    </tr>
 
-                <input type="radio" name="gender" id="male" checked><label for="male">Male</label>
-<input type="radio" name="gender" id="female"><label for="female">Female</label>
-            </td>
-        </tr>
+    <tr>
+        <td><label for="yearsofstudies">Study Years</label></td>
+        <td><input type="number" id="yearsofstudies" max="6" min="1"></td> 
+    </tr>
 
-        <tr>
-            <td><label for="sudies">Studies</label></td>
-            <td><select name="studies" id="studies">
-                <option value="one">One</option>
-                <option value="two">Two</option>
-                <option value="three">Three</option>
-                <option value="four">Four</option>
-                <option value="five">Five</option>
-                
-                
-                
-                </select></td>
-        </tr>
+    <tr>
+        <td><label for="login">Email</label></td>
+        <td><input type="email" id="login" maxlength="50" required></td> 
+    </tr>
 
-        <tr>
-            <td><label for="comments">Comments</label></td>
-            <td><textarea name="comments" id="comments" cols="30" rows="10"></textarea></td>
-        </tr>
+    <tr>
+        <td><label for="password">Password</label></td>
+        <td><input type="password" id="password" required minlength="8"></td> 
+    </tr>
 
-        <tr>
-            <td></td>
-            <td><button type="submit">Send Info</button></td>
-        </tr>
-    </table>
+    <tr>
+        <td><button type="submit">Send</button></td>
+        <td></td> 
+    </tr>
+
+
+
+
+
+
+</table>
+
+
+
+
+
 </form>
-<hr>
-<button type="button" onclick="console.log('hello random guy')" >Check Submission</button>
 
 
-<hr>
-<hr>
 
-</body>
-</html>
+    </body>
