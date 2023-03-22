@@ -1,0 +1,36 @@
+.webdev-header{
+color:#95533D;
+font-family: 'Times New Roman', Times, serif;
+font-size: 3.5rem;
+
+text-shadow: 20px 20px 20px black;
+text-align: center;
+border-style: solid;
+border-color: blueviolet;
+
+border-width: 10px;
+font-style: italic;
+text-decoration: underline;
+
+
+}
+.webdev-text{
+color:white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 1.1rem;
+text-indent: 10px;
+
+text-align: justify;
+
+text-shadow: 20px 20px 20px yellow;
+text-decoration: underline;
+
+
+
+}
+
+body{
+    background-color: #3B3634;
+
+  
+}
